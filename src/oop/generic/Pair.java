@@ -16,10 +16,4 @@ public class Pair <T, U>{
     public U getU() {
         return u;
     }
-
-    public void swap(T t, U u)
-    {
-        this.t = (T) u;
-        this.u = (U) t;
-    }
 }
