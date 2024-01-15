@@ -37,6 +37,8 @@ public class LamdaConstructorEx {
         ArrayList<Integer> emptyList = newArray.get();
         System.out.println(emptyList);
 
+
+
         //3. 인수가 없는 Random 생성자를 사용하여 새 Random 객체를 생성하는 람다식 작성
         Supplier<Random> newRandom = Random::new;
         Random emptyRandom = newRandom.get();
